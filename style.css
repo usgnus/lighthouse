@@ -37,10 +37,6 @@ a {
   flex-direction: row;
 }
 
-.logo {
-  height: 5rem;
-}
-
 .navigation {
   width: 100%;
   display: flex;
@@ -64,6 +60,9 @@ a {
   align-items: center;
 }
 
+.main-banner {
+  width: 70rem;
+}
 /* footer */
 .footer {
   padding-top: 2rem;
