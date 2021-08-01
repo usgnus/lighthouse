@@ -61,11 +61,12 @@ a {
 }
 
 .main-banner {
-  width: 70rem;
+  width: 65em;
 }
 /* footer */
 .footer {
   padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: center;
 }
