@@ -44,8 +44,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  height: 60px;
   margin: 0;
+  background-color: var(--main-color);
 }
 
 .items {
