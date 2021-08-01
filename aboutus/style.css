@@ -53,8 +53,10 @@ a {
   align-items: center;
 }
 
-.image {
-  width: 40rem;
+.logo-image {
+  width: 26rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .text-image {
   width: 60rem;
