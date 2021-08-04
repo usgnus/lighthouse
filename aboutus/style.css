@@ -35,7 +35,6 @@ a {
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: var(--main-color);
 }
 
 .items {
@@ -52,8 +51,8 @@ a {
 
 .logo-image {
   width: 26rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .text-image {
   width: 60rem;
