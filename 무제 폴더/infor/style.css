@@ -1,0 +1,62 @@
+:root {
+  --main-color: #F7E017;
+  --black: #000000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul,li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+
+/* header */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+}
+
+.items {
+  padding-left: 1.5rem;
+  font-size: 1.3rem;
+}
+
+
+
+/* container */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  justify-content: center;
+}
