@@ -63,7 +63,13 @@ a {
 /* main */
 .main {
   padding-top: 15rem;
-  padding-bottom: 5.5rem;
+  width: 100%;
+  background-image: url(../images/contactimage.jpeg);
+  text-align: center;
+  background-repeat: no-repeat; /* 배경이미지X */
+  background-size: cover; /* 요소를 비율에 맞게 커버 */
+  background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+  background-attachment: fixed;
 }
 
 .text {
