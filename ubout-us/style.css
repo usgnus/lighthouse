@@ -60,6 +60,10 @@ a {
   font-family: var(--gowun-dodum);
 }
 
+.nav-current {
+  color: var(--gray);
+}
+
 /* main */
 .main {
   padding-top: 15rem;

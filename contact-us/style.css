@@ -60,9 +60,12 @@ a {
   font-family: var(--gowun-dodum);
 }
 
+.nav-current {
+  color: var(--gray);
+}
 /* main */
 .main {
-  padding-top: 15rem;
+  padding-top: 20rem;
   width: 100%;
   background-image: url(../images/contactimage.jpeg);
   text-align: center;
@@ -70,15 +73,32 @@ a {
   background-size: cover; /* 요소를 비율에 맞게 커버 */
   background-position: center; /* 이미지를 요소의 정가운데로 처리 */
   background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
 }
 
-.text {
-  padding-bottom: 5rem;
-  text-align: center;
-  color: #868e96;
-  font-size: 1.1rem;
-  font-weight: 350;
-  font-family: var(--gowun-dodum);
+.into-title {
+  font-family: var(--do-hyeon);
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.into-text {
+  font-family: var(--do-hyeon);
+}
+
+.main-sns-icons {
+  padding-top: 5rem;
+  padding-bottom: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-sns-icon {
+  color: var(--gray);
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 /* footer */
