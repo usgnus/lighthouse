@@ -1,0 +1,172 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #868e96;
+  --yellow: #fcc419;
+  --nanum-myeongjo: "Nanum Myeongjo", serif;
+  --gowun-dodum: "Gowun Dodum", sans-serif;
+  --do-hyeon: "Do Hyeon", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header */
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.main-logo {
+  width: 30rem;
+  height: 12rem;
+}
+
+.nav-box {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-items:not(:first-child) {
+  padding-left: 3rem;
+}
+
+.nav-items {
+  font-family: var(--gowun-dodum);
+}
+
+.nav-current {
+  color: var(--gray);
+}
+
+/* main */
+.main {
+  padding-top: 15rem;
+  width: 100%;
+  background-image: url(../images/about-main.jpeg);
+  text-align: center;
+  background-repeat: no-repeat; /* 배경이미지X */
+  background-size: cover; /* 요소를 비율에 맞게 커버 */
+  background-position: center; /* 이미지를 요소의 정가운데로 처리 */
+  background-attachment: fixed;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  padding-top: 8.7rem;
+  padding-bottom: 5rem;
+  font-family: var(--do-hyeon);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.contents {
+  background-color: var(--white);
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content:not(:last-child) {
+  padding-bottom: 2rem;
+}
+
+.article-text {
+  width: 23rem;
+  height: 13rem;
+  font-family: var(--do-hyeon);
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.article-text:nth-child(2n) {
+  text-align: left;
+  padding-left: 4rem;
+}
+
+.sub-ttl {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-top: 5rem;
+}
+.word {
+  padding-top: 2rem;
+}
+
+.article-image {
+  width: 30rem;
+  height: 18rem;
+  object-fit: cover;
+}
+
+/* footer */
+.footer {
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--gray);
+  font-family: var(--gowun-dodum);
+}
+
+.sns-icon {
+  color: var(--gray);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.footer-title {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-sub-content {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+}

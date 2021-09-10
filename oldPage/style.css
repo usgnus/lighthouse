@@ -1,0 +1,113 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --gray: #868e96;
+  --yellow: #fcc419;
+  --orange: #fd7e14;
+  --nanum-myeongjo: "Nanum Myeongjo", serif;
+  --gowun-dodum: "Gowun Dodum", sans-serif;
+  --do-hyeon: "Do Hyeon", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header */
+.header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.main-logo {
+  width: 30rem;
+  height: 12rem;
+}
+.nav-box {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-items:not(:first-child) {
+  padding-left: 3rem;
+}
+
+.nav-items {
+  font-family: var(--gowun-dodum);
+}
+
+.nav-current {
+  color: var(--gray);
+}
+/* main */
+.main {
+  padding-top: 15rem;
+  padding-bottom: 5.5rem;
+}
+
+.text {
+  padding-bottom: 5rem;
+  text-align: center;
+  color: #868e96;
+  font-size: 1.1rem;
+  font-weight: 350;
+  font-family: var(--gowun-dodum);
+}
+
+/* footer */
+.footer {
+  padding-top: 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--black);
+  color: var(--gray);
+  font-family: var(--gowun-dodum);
+}
+
+.sns-icon {
+  color: var(--gray);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.footer-title {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-sub-content {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+}
