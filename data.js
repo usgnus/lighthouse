@@ -15,3 +15,8 @@ const footerData = {
   holder : '예금주',
   subText : '*기부금 영수증 등 후원내역 관리를 위해 계좌입금 후 연락 부탁드립니다.'
 };
+
+const snsData = {
+  insta : `https://www.instagram.com/jteensministries/`,
+  youtube : `https://www.youtube.com/channel/UC2CorMoOIDyL1-vxFW1yPfg`
+}

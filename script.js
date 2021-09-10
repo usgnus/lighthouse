@@ -238,7 +238,7 @@ function makeContactUs() {
 
   //insta a 태그
   const instaIcon = document.createElement('a');
-  instaIcon.setAttribute('href', `https://www.instagram.com/jteensministries/`);
+  instaIcon.setAttribute('href', snsData.insta);
   instaIcon.setAttribute('target', "_blank");
 
   //insta i태그
@@ -248,7 +248,7 @@ function makeContactUs() {
 
   //youtube a태그
   const youtubeIcon = document.createElement('a');
-  youtubeIcon.setAttribute('href', `https://www.youtube.com/channel/UC2CorMoOIDyL1-vxFW1yPfg`);
+  youtubeIcon.setAttribute('href', snsData.youtube);
   youtubeIcon.setAttribute('target', "_blank");
 
   //youtube i태그
@@ -280,7 +280,7 @@ function makeFooter() {
 
     //insta a & i tag
   const footerInstaA = document.createElement('a');
-  footerInstaA.setAttribute('href', `https://www.instagram.com/jteensministries/`)
+  footerInstaA.setAttribute('href', snsData.insta)
   footerInstaA.setAttribute('target', '_blank')
 
   const footerInstaI = document.createElement('i');
@@ -288,7 +288,7 @@ function makeFooter() {
 
     //youtube a & i tag
   const footerYoutubeA = document.createElement('a');
-  footerYoutubeA.setAttribute('href', `https://www.youtube.com/channel/UC2CorMoOIDyL1-vxFW1yPfg`)
+  footerYoutubeA.setAttribute('href', snsData.youtube)
   footerYoutubeA.setAttribute('target', '_blank')
 
   const footerYoutubeI = document.createElement('i');
