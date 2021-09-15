@@ -17,6 +17,6 @@ const footerData = {
 };
 
 const snsData = {
-  insta : `https://www.instagram.com/jteensministries/`,
+  insta : `https://www.instagram.com/lighthouse.mission/`,
   youtube : `https://www.youtube.com/channel/UC2CorMoOIDyL1-vxFW1yPfg`
-}
+};
